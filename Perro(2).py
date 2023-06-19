@@ -1,12 +1,27 @@
 """
 Clase Perro.
 
-Autor: Jaime Rabasco Ronda.
+Autor: Monica Blanco
 """
 class Perro:
+    """
+    Genera la clase Perro
+    """
 
     def ladrar(self):
-        print('Guau');
+        """
+
+        :return: devuelveme  ladrar
+        """
+        print(self.method_guau());
+
+    def method_guau(self):
+        """
+
+        :return: devuelveme ladrar
+        """
+        return 'Guau'
+
 
 p = Perro();
 p.ladrar();
